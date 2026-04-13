@@ -1,0 +1,24 @@
+# QAT-Phi2 Requirements
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+torch>=2.1.0
+transformers>=4.36.0
+datasets>=2.14.0
+accelerate>=0.24.0
+
+# Quantization
+torchao>=0.1.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Utilities
+tqdm>=4.65.0
+numpy>=1.24.0
+
+# Optional but recommended
+# bitsandbytes>=0.41.0  # For additional quantization options
+# sentencepiece>=0.1.99  # For some tokenizers
+# protobuf>=3.20.0  # For model serialization
